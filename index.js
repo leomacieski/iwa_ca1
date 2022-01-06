@@ -33,8 +33,8 @@ router.get('/get/html', function(req, res) {
 
     res.writeHead(200, {'Content-Type' : 'text/html'}); //Tell the user that the resource exists and which type that is
 
-    let xml = fs.readFileSync('PaddyCafe.xml', 'utf8'), //read in the XML file
-        xsl = fs.readFileSync('PaddyCafe.xsl', 'utf8'); //read in the XSL file
+    let xml = fs.readFileSync('cocktailTutorial.xml', 'utf8'), //read in the XML file
+        xsl = fs.readFileSync('cocktailTutorial.xsl', 'utf8'); //read in the XSL file
 
    // console.log(xml);
     //console.log(xsl);
@@ -56,13 +56,13 @@ router.post('/post/json', function(req, res){
     function appendJSON(obj) {
         console.log(obj)
 
-        XMLtoJSON('PaddyCafe.xml', function(err, result){
+        XMLtoJSON('cocktailTutorial.xml', function(err, result){
             if(err) throw(err);
             result.menu.section[obj.sec_n].entry.push({'item': obj.item, 'price': obj.price});
 
             console.log(JSON.stringify(result, null, " "));
 
-            JSONtoXML('PaddyCafe.xml', result, function(err){
+            JSONtoXML('cocktailTutorial.xml', result, function(err){
                 if(err) console.log(err);
             });
         });

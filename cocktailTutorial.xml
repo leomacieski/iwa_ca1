@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu>
+    <section name="Espresso Martini">
+        <type>
+        <glass>
+            Martini glass
+        </glass>
+        <ingredients>
+            Vodka;
+            Kahlua;
+            Double espresso;
+            Baileys (optional)
+        </ingredients>
+        <how2prepare>
+            in a cocktail shaker with ice, add one shot of vodka, one shot of kahlua and double espresso and shake it for 20 seconds;
+            pour the mix on the martini glass;
+            garnish with a couple of coffee beans on top and baileys to extra flavour.
+        </how2prepare>
+    </type>
+    </section>
+    <section name="Cosmopolitan">
+        <type>
+        <glass>
+            Martini glass
+        </glass>
+        <ingredients>
+            Vodka;
+            Cointreau;
+            Lime;
+            Sugar syrup;
+            Cranberry juice;
+        </ingredients>
+        <how2prepare>
+            in a cocktail shaker with ice, add one shot of vodka, half shot of cointreau, one cap of sugar syrup, squeeze half lime and top up with cranberry juice and shake it for 20 seconds;
+            pour the mix on the martini glass;
+            garnish with a slice of lime.
+        </how2prepare>
+    </type>
+    </section>
+    <section name="Mojito">
+        <type>
+        <glass>
+            Zombie glass
+        </glass>
+        <ingredients>
+            Mint;
+            Bacardi;
+            Lime;
+            Sugar syrup;
+            Sprite;
+        </ingredients>
+        <how2prepare>
+            In the zombie glass add 5 leaves of mint, 4 wedges of lime and one cap of sugar syrup; smash it to release the lime juice, add a couple of scoops of crushed ice and one shot of bacardi and stir it; add a couple more scoops of crushed ice and top up with sprite;
+            garnish on top with a slice of lemon and mints.
+        </how2prepare>
+    </type>
+    </section>
+    <section name="Pink Perfection">
+        <type>
+        <glass>
+            Goblet glass
+        </glass>
+        <ingredients>
+            Pink gin;
+            Raspberry;
+            Berry syrup;
+            Sprite or Soda water;
+        </ingredients>
+        <how2prepare>
+            In the goblet glass add 4 to 5 raspberry and one cap of berry syrup and smash it; add a couple of ice cubes and 2 shots of pink gin and stir it; add more ice and top up with sprite or soda water;
+            garnish with your preferable berrys (strawberry, blueberry, cranberry, raspberry).
+        </how2prepare>
+    </type>
+    </section>
+    <section name="Old Fashioned">
+        <type>
+        <glass>
+            Whisky glass
+        </glass>
+        <ingredients>
+            Scotch whisky or bourbon;
+            Angostura bitters;
+            Brown suagr;
+            Soda water or Sprite;
+        </ingredients>
+        <how2prepare>
+            In the whisky glass add one teaspoon of brown sugar and a splash of water, 1-2 dashes of angostura bitters and mixed until the sugar dissolve; add one shot of Scotch or Bourbon, ice and stir it; top up with sprite or soda water;
+            garnish with an orange peel.
+        </how2prepare>
+    </type>
+    </section>
+    <section name="Whisky Sour">
+        <type>
+        <glass>
+            Whisky glass
+        </glass>
+        <ingredients>
+            Bourbon;
+            Lemon;
+            Sugar syrup;
+            Egg white;
+            Angostura bitters;
+        </ingredients>
+        <how2prepare>
+            In the cocktail shaker with ice add one shot of bourbon, one cap of sugar syrup, 2 dashes of angostura bitters, one egg white, juice from one squeezed lemon and shake it;
+            pour the mix into the whisky glass and add a few cubes of ice;
+            garnish with wedge of lemon.
+        </how2prepare>
+    </type>
+    </section>
+</menu>

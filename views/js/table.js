@@ -20,7 +20,7 @@ function append(){
         url: "/post/json",
         type: "POST",
         dataType: 'application/json',
-        data: '{"sec_n": "' + $("#section").val() + '", "item":"' + $("#item").val() + '", "price":"' + $("#price").val() + '"}',
+        data: '{"sec_n": "' + $("#section").val() + '", "ingredients":"' + $("#ingredients").val() + '", "how2prepare":"' + $("#how2prepare").val() + '"}',
         cache: false,
         success: draw_tablesetTimeout(draw_table, 1000)
     })

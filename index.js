@@ -51,29 +51,21 @@ router.get('/get/html', function(req, res) {
 });
 
 
-router.post('/post/json', function(req, res){
-    
-    function appendJSON(obj) {
-        console.log(obj)
+function search() {
+    let input = document.getElementById('form1').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('menuTable');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
 
-        XMLtoJSON('cocktailTutorial.xml', function(err, result){
-            if(err) throw(err);
-            result.menu.section[obj.sec_n].entry.push({'item': obj.item, 'price': obj.price});
-
-            console.log(JSON.stringify(result, null, " "));
-
-            JSONtoXML('cocktailTutorial.xml', result, function(err){
-                if(err) console.log(err);
-            });
-        });
-    };
-
-    appendJSON(req.body);
-
-    res.redirect('back');
-
-
-});
 
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function(){
     const addr = server.address();

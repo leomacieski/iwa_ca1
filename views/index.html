@@ -38,22 +38,14 @@
             </div>
             <div id="results" class="col-lg-8 order-2 mb-5"></div>
             <div class="col-lg-4 order-1 mb-3"
-                <form enctype="application/json" action="/post/json" method="post">
-                    <div class="form-group">
-                        <select id="ssection" class="form-control" name="sec_n">
-                            <option value="0">Drinks</option>
-                            <option value="1">Side Dishes</option>
-                            <option value="2">Breakfast</option>
-                            <option value="3">Lunch</option>
-                            <option value="4">Dinner</option>
-                        </select>
-                        <input id="item" class="form-control mt-3" type="text" name="item" placeholder="Item"/>
-                        <input class="form-control mt-3" type="text" name="price" placeholder="Price"/>
-                    </div>
-                    <div id="price" class="d-grid gap-2">
-                        <button id="append" class="btn btn-primary btn-block mt-3">Submit</button>
-                    </div>
-                </form>
+            <div class="input-group">
+                <div class="form-outline">
+                  <input type="search" id="form1" class="form-control" />
+                </div>
+                <button type="button" id="search" class="btn btn-primary">
+                    <label>Search</label>
+                </button>
+              </div>
             </div>
             </div>
         </div>

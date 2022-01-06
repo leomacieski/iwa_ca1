@@ -26,15 +26,6 @@ function append(){
     })
 };
 
-function selec_row(){
-    $("#menuTable tbody tr[id]").click(function(){
-        $(".selected").removeclass("selected");
-        $(this).addclass("selected");
-        var section = $(this).prevAll("tr").children("rdcoolspan= '3'").length -1;
-        var entry = $(this).attr("id") - 1;
-        delete_row(section, entry);
-    })
-};
 
 $(document).ready(function(){
     draw_table();
